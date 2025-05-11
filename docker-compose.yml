@@ -1,0 +1,18 @@
+# Docker images for database and database interface used for development
+# Cannot be used on server as port 5432 is not exposed and image needs to run
+# on this port.
+version: "3.6"
+services:
+  database:
+    image: postgres:10-alpine
+    ports:
+      - "5432:5432"
+    env_file: .env
+
+
+  adminer:
+    image: adminer
+    depends_on:
+      - database
+    ports:
+      - "8080:8080"

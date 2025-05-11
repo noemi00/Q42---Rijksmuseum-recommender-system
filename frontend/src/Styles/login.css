@@ -1,0 +1,18 @@
+.login_container {
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+}
+
+.register_text {
+  text-align: center;
+}
+
+a.register_link {
+  text-decoration: none;
+  color: black;
+}
+
+.register_link:hover {
+  text-decoration: underline;
+}

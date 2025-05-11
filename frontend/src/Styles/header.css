@@ -1,0 +1,41 @@
+.title_container {
+  height: 95px;
+  background-color: #2d2a2a;
+}
+
+.title {
+  margin-left: 20px;
+  padding: 10px;
+}
+
+a.title_link {
+  height: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.ant-divider.title_divider {
+  margin: 0px;
+  margin-top: -15px;
+}
+
+.return {
+  float: left;
+  font-size: 25px;
+  color: black;
+  margin: 20px;
+  margin-left: 0px;
+}
+
+.logout_link,
+.logout_link[type="submit"],
+.logout_link[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  color: white;
+}

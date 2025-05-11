@@ -1,0 +1,9 @@
+.evaluation_image {
+  width: 200px;
+  height: auto;
+}
+
+.evaluation_images {
+  width: 100%;
+  float: left;
+}
