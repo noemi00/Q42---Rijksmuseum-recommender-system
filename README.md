@@ -32,7 +32,7 @@ For Linux and MacOS, run `curl -sSL https://raw.githubusercontent.com/python-poe
 
 ---
 ## Database
-For the database docker images are used. Create a .env file in the root of the project containing the following environment variables:
+For the database, docker images are used. Create a .env file in the root of the project containing the following environment variables:
 
 POSTGRES_PASSWORD={pwd} \
 POSTGRES_DB=rtls-visualistion \
@@ -50,7 +50,7 @@ Run the migrations in the backend to update the database
 
 ```alembic upgrade head```
 
-The database can than be started by running in the root of the project:
+The database can then be started by running in the root of the project:
 
 ```docker-compose up```
 
@@ -68,18 +68,18 @@ Database:
 ```
 
 Now verify that the database `rtls-visualistion` exists and contains the tables.
-The database can also be setup without docker. Than follow the
+The database can also be setup without docker. Then follow the
 [documentation](https://www.postgresql.org/docs/15/) of postgres. Alembic should work accordingly.
 
 ## Backend
-The backend can be build by using poetry to install all dependencies. The use
-of virtual environment is encouraged, for example using poetry as in this setup but a regular python virtual environment would work as well.
+The backend can be built using poetry to install all dependencies. The use
+of virtual environment is encouraged, for example using poetry as in this setup, but a regular python virtual environment would work as well.
 
 ```cd backend```
 
 ```poetry install```
 
-In the root .env file some other variables need to be set if not done yet namely:
+In the root .env file some other variables need to be set, if not done yet, namely with:
 
 MQTT_BROKER_URL=chimay.science.uva.nl
 MQTT_BROKER_PORT=8020
@@ -89,7 +89,7 @@ To use the broker on the chimay server, other local MQTT brokers can be used as 
 
 DEBUG=True
 
-To set CORS policies for the backend. The backend than can be start inside its folder by running:
+To set CORS policies for the backend. The backend can then be initiated inside its folder by running:
 
 ```uvicorn app:app --host {host} --port {port} --reload```
 
@@ -102,7 +102,7 @@ To activate the environment and than running the command above or use:
 ```poetry run uvicorn app:app --host {host} --port {port} --reload```
 
 ## Frontend
-The frontend can be build by using npm to install all dependencies.
+The frontend can be built by using npm to install all dependencies.
 
 ```cd frontend```
 

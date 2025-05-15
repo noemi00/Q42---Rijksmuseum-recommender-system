@@ -460,3 +460,5 @@ fabric.properties
 
 # images folder
 /backend/app/images
+
+.DS_Store
