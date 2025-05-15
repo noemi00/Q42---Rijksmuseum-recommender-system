@@ -1,4 +1,4 @@
-# DSP-project
+# Data Systems Project
 This project contains the prototype related to the project of group F2.
 
 The application uses the following technologies:
