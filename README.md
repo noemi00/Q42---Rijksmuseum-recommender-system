@@ -54,7 +54,7 @@ The database can then be started by running in the root of the project:
 
 ```docker-compose up```
 
-To verify that the database has been setup correctly, go to `adminer` at.
+To verify that the database has been setup correctly, go to `adminer` at
 
 ```http://localhost:8080```
 
@@ -93,11 +93,11 @@ To set CORS policies for the backend. The backend can then be initiated inside i
 
 ```uvicorn app:app --host {host} --port {port} --reload```
 
-To run the application in the poetries virtual environment:
+To run the application in the poetry virtual environment:
 
 ```poetry shell```
 
-To activate the environment and than running the command above or use:
+To activate the environment and then run the command above or use:
 
 ```poetry run uvicorn app:app --host {host} --port {port} --reload```
 
@@ -108,11 +108,11 @@ The frontend can be built by using npm to install all dependencies.
 
 ```npm install```
 
-Also an .env file in the frontend folder needs to be created with the urls and port to the backend for the API's and Sockets:
+Also, an .env file in the frontend folder needs to be created with the urls and port to the backend for the API's and Sockets:
 
 REACT_APP_FRONTEND_API_URL=http://{url}:{port}
 REACT_APP_FRONTEND_WS_URL=ws://{url}:{port}
 
-The frontend than can be started inside its folder by running:
+The frontend can then be started inside its folder by running:
 
 ```npm start```
