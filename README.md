@@ -1,7 +1,7 @@
 # DSP-project
 This project contains the prototype related to the project of group F2.
 
-The applications uses the following technologies:
+The application uses the following technologies:
 - FastAPI as framework for the backend
 - Uvicorn as an ASGI web server
 - SQLAlchemy for database communication
